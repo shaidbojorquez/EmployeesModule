@@ -37,7 +37,7 @@ CREATE TABLE public.addresses (
 );
 
 
-ALTER TABLE public.addresses OWNER TO test_user;
+ALTER TABLE public.addresses OWNER TO user_test;
 
 --
 -- TOC entry 201 (class 1259 OID 20161)
@@ -53,7 +53,7 @@ CREATE SEQUENCE public."Addresses_id_seq"
     CACHE 1;
 
 
-ALTER TABLE public."Addresses_id_seq" OWNER TO test_user;
+ALTER TABLE public."Addresses_id_seq" OWNER TO user_test;
 
 --
 -- TOC entry 2883 (class 0 OID 0)
@@ -78,7 +78,7 @@ CREATE TABLE public.benefits (
 );
 
 
-ALTER TABLE public.benefits OWNER TO test_user;
+ALTER TABLE public.benefits OWNER TO user_test;
 
 --
 -- TOC entry 198 (class 1259 OID 20135)
@@ -94,7 +94,7 @@ CREATE SEQUENCE public."Benefits_id_seq"
     CACHE 1;
 
 
-ALTER TABLE public."Benefits_id_seq" OWNER TO test_user;
+ALTER TABLE public."Benefits_id_seq" OWNER TO user_test;
 
 --
 -- TOC entry 2884 (class 0 OID 0)
@@ -128,7 +128,7 @@ CREATE TABLE public.employees (
 );
 
 
-ALTER TABLE public.employees OWNER TO test_user;
+ALTER TABLE public.employees OWNER TO user_test;
 
 --
 -- TOC entry 196 (class 1259 OID 20127)
@@ -144,7 +144,7 @@ CREATE SEQUENCE public."Employees_id_seq"
     CACHE 1;
 
 
-ALTER TABLE public."Employees_id_seq" OWNER TO test_user;
+ALTER TABLE public."Employees_id_seq" OWNER TO user_test;
 
 --
 -- TOC entry 2885 (class 0 OID 0)
@@ -166,7 +166,7 @@ CREATE TABLE public.authorities (
 );
 
 
-ALTER TABLE public.authorities OWNER TO test_user;
+ALTER TABLE public.authorities OWNER TO user_test;
 
 --
 -- TOC entry 203 (class 1259 OID 20279)
@@ -182,7 +182,7 @@ CREATE SEQUENCE public.authorities_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.authorities_id_seq OWNER TO test_user;
+ALTER TABLE public.authorities_id_seq OWNER TO user_test;
 
 --
 -- TOC entry 2886 (class 0 OID 0)
@@ -204,7 +204,7 @@ CREATE TABLE public.employee_benefits (
 );
 
 
-ALTER TABLE public.employee_benefits OWNER TO test_user;
+ALTER TABLE public.employee_benefits OWNER TO user_test;
 
 --
 -- TOC entry 206 (class 1259 OID 20289)
@@ -220,7 +220,7 @@ CREATE TABLE public.users (
 );
 
 
-ALTER TABLE public.users OWNER TO postgres;
+ALTER TABLE public.users OWNER TO user_test;
 
 --
 -- TOC entry 207 (class 1259 OID 20300)
@@ -233,7 +233,7 @@ CREATE TABLE public.users_authorities (
 );
 
 
-ALTER TABLE public.users_authorities OWNER TO test_user;
+ALTER TABLE public.users_authorities OWNER TO user_test;
 
 --
 -- TOC entry 205 (class 1259 OID 20287)
@@ -249,7 +249,7 @@ CREATE SEQUENCE public.users_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.users_id_seq OWNER TO test_user;
+ALTER TABLE public.users_id_seq OWNER TO user_test;
 
 --
 -- TOC entry 2887 (class 0 OID 0)
